@@ -1,0 +1,32 @@
+.title-1,
+.title-2,
+.title-3,
+.title-4,
+.title-5,
+.title-6 {
+    @apply font-title;
+}
+
+.title-1 {
+    @apply text-4xl font-bold tracking-wide md:text-6xl;
+}
+
+.title-2 {
+    @apply text-3xl font-bold leading-tight tracking-tight md:text-5xl;
+}
+
+.title-3 {
+    @apply text-2xl font-semibold leading-tight md:text-4xl;
+}
+
+.title-4 {
+    @apply text-2xl font-semibold leading-snug md:text-3xl;
+}
+
+.title-5 {
+    @apply text-xl font-medium leading-snug md:text-2xl;
+}
+
+.title-6 {
+    @apply text-lg font-medium uppercase tracking-wide md:text-xl;
+}

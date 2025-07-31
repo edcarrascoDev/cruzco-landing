@@ -1,0 +1,15 @@
+.button {
+    @apply inline-flex items-center justify-center px-4 py-3 text-sm font-bold uppercase;
+
+    &.button--light:not(:disabled) {
+        @apply bg-white text-black;
+    }
+
+    &:disabled {
+        @apply cursor-not-allowed bg-gray-200 text-gray-600;
+    }
+
+    &:not(:disabled) {
+        @apply cursor-pointer bg-black text-white ;
+    }
+}
