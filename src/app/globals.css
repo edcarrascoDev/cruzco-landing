@@ -5,6 +5,7 @@
 
 :root {
   --primary: #9dc53e;
+  --secondary: #84409f;
   --dark: #171717;
   --foreground: #fff;
 }
@@ -13,6 +14,7 @@
   --color-background: var(--dark);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
   --color-dark: var(--dark);
   --font-sans: var(--font-lato);
   --font-title: var(--font-domine);

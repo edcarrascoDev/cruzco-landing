@@ -61,7 +61,7 @@ export default function MainProject() {
           </div>
           <div className="min-w-56 flex md:flex-col gap-4 justify-between"></div>
         </div>
-        <h6 className="title-4 uppercase font-bold mb-6">
+        <h6 className="title-4 uppercase text-primary font-bold mb-6">
           Nuestras zonas sociales
         </h6>
       </div>
