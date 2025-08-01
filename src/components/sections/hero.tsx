@@ -29,7 +29,7 @@ export default function Hero() {
           </div>
           <div className="hero__image">
             <Image
-              className="object-contain object-bottom-right"
+              className="object-contain object-bottom-right rounded-2xl"
               src="/cruzco-hero.jpg"
               alt="Imagen de bosques del rio"
               fill

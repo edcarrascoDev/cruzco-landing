@@ -25,7 +25,7 @@ body {
 
 
 .container {
-  @apply max-w-4xl mx-auto px-5;
+  @apply max-w-5xl mx-auto px-5;
 }
 
 .hero {
