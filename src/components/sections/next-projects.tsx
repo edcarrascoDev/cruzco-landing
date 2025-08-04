@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "@cruzco/components/common/button";
 import { Modal } from "@mui/material";
 import { useState } from "react";
+import SubscriptionForm from "@cruzco/components/subscription-form";
 
 export default function NextProjects() {
   const [open, setOpen] = useState(false);
@@ -50,7 +51,7 @@ export default function NextProjects() {
               aria-describedby="modal-modal-description"
             >
               <div className="absolute top-1/2 left-1/2 -translate-1/2 bg-white rounded-2xl p-8">
-                this is the modal
+                <SubscriptionForm />
               </div>
             </Modal>
           </div>
