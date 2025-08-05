@@ -8,10 +8,10 @@ export default function AboutUs() {
           <div className="relative w-auto flex-1">
             <Image
               className="rounded-2xl"
-              src="/cruzco-hero.jpg"
+              src="/about-us.jpg"
               alt="Imagen de bosques del rio"
-              width={500}
-              height={500}
+              width={800}
+              height={800}
             />
             <div className="absolute bottom-3 -left-5 font-title font-bold text-lg uppercase ">
               <h6 className="inline bg-primary box-decoration-clone px-2 py-2">
@@ -20,7 +20,7 @@ export default function AboutUs() {
               </h6>
             </div>
           </div>
-          <div className="w-64 md:pt-6">
+          <div className="md:w-72 md:pt-6">
             <h3 className="title-4 text-primary uppercase first-letter:text-4xl">
               Nosotros
             </h3>
