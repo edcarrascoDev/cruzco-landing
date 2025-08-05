@@ -28,12 +28,14 @@ export default function Hero() {
             </Button>
           </div>
           <div className="hero__image">
-            <Image
-              className="object-contain object-bottom-right rounded-2xl"
-              src="/cruzco-hero.jpg"
-              alt="Imagen de bosques del rio"
-              fill
-            />
+            <div className="w-full h-full">
+              <Image
+                className="object-cover object-bottom-right rounded-2xl w-full h-full"
+                src="/bra_house.jpeg"
+                alt="Imagen de bosques del rio"
+                fill
+              />
+            </div>
           </div>
         </div>
         <Button className="md:!hidden mt-6" href="#contact" variant="light">
