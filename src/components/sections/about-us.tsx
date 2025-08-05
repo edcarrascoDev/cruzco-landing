@@ -15,19 +15,21 @@ export default function AboutUs() {
             />
             <div className="absolute bottom-3 -left-5 font-title font-bold text-lg uppercase ">
               <h6 className="inline bg-primary box-decoration-clone px-2 py-2">
-                Aquí va una frase <br />
-                interesante, <br />
-                que resalte muy bien
+                Diseñamos espacios <br />
+                que conectan con la vida.
               </h6>
             </div>
           </div>
           <div className="w-64 md:pt-6">
-            <h3 className="title-4 text-primary uppercase first-letter:text-4xl">Nosotros</h3>
+            <h3 className="title-4 text-primary uppercase first-letter:text-4xl">
+              Nosotros
+            </h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
-              cum ducimus ea earum impedit, magni nam nisi non nulla odit
-              officia quaerat quam qui repudiandae sequi veniam voluptate.
-              Incidunt, temporibus.
+              En Cruzco Constructora diseñamos y desarrollamos proyectos que
+              respetan el entorno y mejoran la calidad de vida. Nuestro
+              compromiso es construir espacios sostenibles, funcionales y en
+              armonía con la naturaleza, como lo demuestra nuestro proyecto
+              insignia: Bosques del Río.
             </p>
           </div>
         </div>

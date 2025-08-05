@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lato, League_Spartan } from "next/font/google";
 import "./globals.css";
 import Header from "@cruzco/components/header";
+import Footer from "@cruzco/components/footer";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -62,7 +62,7 @@ export default function SubscriptionForm() {
           helperText={formik.touched.firstName && formik.errors.firstName}
         />
         <Button variant="dark" type="submit" className="md:col-span-2">
-          Subcribirmne
+          Subcribirme
         </Button>
       </div>
     </form>

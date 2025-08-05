@@ -46,17 +46,16 @@ export default function MainProject() {
         <div className="md:flex gap-8 mt-4 md:my-10">
           <div className="flex-1">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusantium aliquid animi aspernatur at autem beatae eos esse
-              excepturi in itaque iure laborum magni, quaerat quam quo quod sed
-              vel vitae! Lorem ipsum dolor sit amet, consectetur adipisicing
-              excepturi in itaque iure laborum magni, quaerat quam quo quod sed
-              vel vitae! Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit. Accusantium aliquid animi aspernatur at autem beatae eos vel
-              vitae! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusantium aliquid animi aspernatur at autem beatae eos esse
-              excepturi in itaque iure laborum magni, quaerat quam quo quod sed
-              vel vitae!
+              Bosques del Río es un exclusivo condominio campestre ubicado en
+              Arbelaez, que ofrece una propuesta única de conexión con la
+              naturaleza sin renunciar al confort. El proyecto cuenta con lotes
+              campestres rodeados de una reserva natural, ideales para construir
+              la casa de tus sueños. Puedes adquirir solo el lote o contratar a
+              Cruzco Constructora para desarrollar tu vivienda con altos
+              estándares de calidad, diseño y respeto por el entorno. Es el
+              lugar perfecto para invertir con confianza y vivir con
+              tranquilidad, rodeado de aire puro, zonas verdes y un ambiente que
+              invita al descanso, la armonía y el bienestar.
             </p>
           </div>
           <div className="min-w-56 flex md:flex-col gap-4 justify-between"></div>

@@ -14,10 +14,10 @@ export default function Hero() {
         <div className="hero__wrapper">
           <div>
             <p className="max-w-xs w-full flex-1">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              dolores dolorum illum nemo officiis omnis sed! Corporis cupiditate
-              earum et, incidunt ipsum laudantium nesciunt quis, ratione,
-              recusandae rerum similique totam!
+              Bosques del Río en Arbeláez, el proyecto estrella de Cruzco
+              Constructora, es un condominio construido que integra una reserva
+              natural, permitiéndote vivir rodeado de aire puro, paisajes verdes
+              y tranquilidad, sin renunciar al confort.
             </p>
             <Button
               className="max-md:!hidden mt-6"
