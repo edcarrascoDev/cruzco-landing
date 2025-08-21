@@ -33,7 +33,7 @@ const lotSizeOptions = [
   "3501 – 4000 m²",
   "4001 – 4500 m²",
   "4501 – 5000 m²",
-  "5001 – 6000 m²",
+  "5001 – 6400 m²",
 ];
 
 export default function ContactForm() {
