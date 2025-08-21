@@ -27,14 +27,13 @@ const budgetRanges = [
 ];
 
 const lotSizeOptions = [
-  "100 – 200 m²",
-  "201 – 300 m²",
-  "301 – 400 m²",
-  "401 – 500 m²",
-  "501 – 600 m²",
-  "601 – 700 m²",
-  "701 – 800 m²",
-  "Más de 800 m²",
+  "2000 – 2500 m²",
+  "2501 – 3000 m²",
+  "3001 – 3500 m²",
+  "3501 – 4000 m²",
+  "4001 – 4500 m²",
+  "4501 – 5000 m²",
+  "5001 – 6000 m²",
 ];
 
 export default function ContactForm() {
@@ -100,7 +99,7 @@ export default function ContactForm() {
           "¡Gracias! Hemos recibido tus datos y nos estaremos comunicando contigo en breve.",
         );
         resetForm();
-      } catch (error: any) {
+      } catch (error: unknown) {
         setIsError(true);
         console.error(error);
         setFormMessage("No se pudo enviar el formulario. Inténtalo de nuevo.");

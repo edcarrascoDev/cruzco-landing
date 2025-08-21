@@ -1,7 +1,7 @@
 import GallerySlider from "@cruzco/components/gallery-slider";
 const features = [
   {
-    value: "200m²",
+    value: "2000m²",
     label: "Areas desde",
   },
   {
