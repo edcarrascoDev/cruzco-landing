@@ -1,14 +1,9 @@
-"use client";
 import Image from "next/image";
 import Button from "@cruzco/components/common/button";
-import { Modal } from "@mui/material";
-import { useState } from "react";
-import SubscriptionForm from "@cruzco/components/subscription-form";
 
 export default function NextProjects() {
-  const [open, setOpen] = useState(false);
   return (
-    <section className="py-20">
+    <section id="nextProjects" className="py-20">
       <div className="container">
         <h3 className="title-3 uppercase first-letter:text-4xl mb-8">
           Nuestros nuevos proyectos
@@ -16,7 +11,7 @@ export default function NextProjects() {
         <div className="md:flex gap-16 items-stretch">
           <div className="rounded-2xl flex items-center justify-center w-72 min-h-[300px] bg-secondary relative">
             <h6 className="title-4 first-letter:text-4xl relative z-10">
-              Andalucia
+              Andalucía
             </h6>
             <Image
               className="opacity-10"
@@ -26,34 +21,24 @@ export default function NextProjects() {
             />
           </div>
           <div className="py-8 flex-1">
-            <h6 className="title-5 mb-6">Conoce Andalucia</h6>
+            <h6 className="title-5 mb-6">Conoce Andalucía</h6>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
-              consequatur debitis doloremque dolores eius eligendi enim est, ex
-              expedita maxime molestiae nam odit officiis provident, quo
-              reprehenderit sit soluta voluptate. Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Accusantium aliquid animi aspernatur
-              at autem beatae eos esse excepturi in itaque iure laborum magni,
-              quaerat quam quo quod sed vel vitae! Lorem ipsum dolor sit amet,
-              consectetur adipisicing excepturi in itaque iure laborum magni.
+              Bienvenido a Andalucía, un proyecto <b>agroliving</b> en
+              Sabanalarga, Casanare, diseñado para quienes sueñan con una vida
+              en armonía con la naturaleza. Con <b>121 lotes</b> disponibles, de{" "}
+              <b>2.000 a 3.600 m2</b>, ofrecemos el espacio ideal para construir
+              tu hogar. Ubicado en la vereda San Pedro, este paraíso sostenible
+              prioriza las <b>energías renovables</b>, garantizando un futuro
+              verde y autosuficiente. Disfruta de la tranquilidad del campo sin
+              renunciar a la modernidad.
             </p>
             <Button
-              type="button"
+              href="/documents/loteo_andalucia.pdf"
+              target="_blank"
               className="mt-10"
-              onClick={() => setOpen(true)}
             >
-              ¡Quiero acceso anticipado!
+              Ver loteo
             </Button>
-            <Modal
-              open={open}
-              onClose={() => setOpen(false)}
-              aria-labelledby="modal-modal-title"
-              aria-describedby="modal-modal-description"
-            >
-              <div className="absolute top-1/2 left-1/2 -translate-1/2 bg-white rounded-2xl p-8">
-                <SubscriptionForm />
-              </div>
-            </Modal>
           </div>
         </div>
       </div>

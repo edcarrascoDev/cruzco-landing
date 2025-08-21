@@ -3,10 +3,10 @@ import MobileNav from "@cruzco/components/mobile-nav";
 
 export default function Header() {
   const links: { name: string; href: string }[] = [
-    { name: "Nosotros", href: "#section1" },
-    { name: "Bosques del Rio", href: "#section2" },
-    { name: "Próximos proyectos", href: "#section3" },
-    { name: "Contáctanos", href: "#section4" },
+    { name: "Nosotros", href: "#about" },
+    { name: "Bosques del Rio", href: "#mainProject" },
+    { name: "Próximos proyectos", href: "#nextProjects" },
+    { name: "Contáctanos", href: "#contact" },
   ];
 
   return (

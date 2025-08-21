@@ -15,15 +15,14 @@ export default function Footer() {
             />
           </div>
           <div className="h-1 bg-white w-10"></div>
-          <a target="_blank" href="mailto:cruzoc@gmail.com">
-            cruszcoconstuctora@gmail.com
-          </a>
+
           <nav className="flex gap-4 >a:text-white">
-            <a target="_blank" href="tel:+573058117424">
-              305 8117424
+            <a target="_blank" href="mailto:cruzoc@gmail.com">
+              cruszcoconstuctora@gmail.com
             </a>
-            <a target="_blank" href="tel:+573058117424">
-              305 8117424
+            |
+            <a target="_blank" href="tel:+573165332182">
+              316 533 2182
             </a>
           </nav>
           <nav className="flex gap-4">
@@ -54,7 +53,7 @@ export default function Footer() {
             <a
               className="block bg-white rounded-full p-2 text-center"
               target="_blank"
-              href="https://www.instagram.com/cruzcoconstructora/"
+              href="https://wa.me/573165332182?text=Hola%2C%20estoy%20interesado%20en%20uno%20de%20sus%20proyectos."
             >
               <Image
                 src="/whatsapp-icon.svg"

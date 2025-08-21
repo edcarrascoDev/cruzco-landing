@@ -3,7 +3,7 @@ import ContactForm from "@cruzco/components/contact-form";
 
 export default function ContactUs() {
   return (
-    <section className="relative bg-white text-black">
+    <section id="contact" className="relative bg-white text-black">
       <div className="md:absolute top-0 left-0 right-0 bottom-0">
         <div className="grid md:grid-cols-2 md:gap-8 w-full h-full">
           <div className="w-full h-full relative  min-h-[300px]">
