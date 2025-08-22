@@ -45,7 +45,7 @@ export default function ContactForm() {
     lastname: Yup.string().required("Este campo es requerido"),
     budget_client: Yup.string().required("Seleccione por lo menos una opción"),
     desiredLotSize: Yup.string().required("Seleccione por lo menos una opción"),
-    project: Yup.string().required("Seleccione por lo menos una opción"),
+    project_name: Yup.string().required("Seleccione por lo menos una opción"),
     email: Yup.string()
       .email("Correo electrónico invalido")
       .required("Este campo es requerido"),
@@ -62,7 +62,7 @@ export default function ContactForm() {
       phone: "",
       budget_client: "",
       desiredLotSize: "",
-      project: "",
+      project_name: "",
     },
     validateOnBlur: true,
     validateOnChange: true,
@@ -219,28 +219,30 @@ export default function ContactForm() {
           </FormHelperText>
         </FormControl>
         <FormControl
-          error={formik.touched.project && Boolean(formik.errors.project)}
+          error={
+            formik.touched.project_name && Boolean(formik.errors.project_name)
+          }
         >
-          <FormLabel id="project">Proyecto de interés</FormLabel>
+          <FormLabel id="project_name">Proyecto de interés</FormLabel>
           <RadioGroup
-            id="project"
-            name="project"
-            value={formik.values.project}
+            id="project_name"
+            name="project_name"
+            value={formik.values.project_name}
             onChange={formik.handleChange}
           >
             <FormControlLabel
-              value="Bosques del río "
+              value="Bosques del río"
               control={<Radio />}
-              label="Bosques del río "
+              label="Bosques del río"
             />
             <FormControlLabel
-              value="Andalucia"
+              value="Andalucía"
               control={<Radio />}
               label="Andalucía"
             />
           </RadioGroup>
           <FormHelperText>
-            {formik.touched.project && formik.errors.project}
+            {formik.touched.project_name && formik.errors.project_name}
           </FormHelperText>
         </FormControl>
         <Button
