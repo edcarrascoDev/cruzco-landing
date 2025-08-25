@@ -1,24 +1,10 @@
 "use client";
-import "lite-youtube-embed";
+
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const YouTubeEmbed = ({ id, title }: { id: string; title: string }) => {
-  return (
-    <lite-youtube
-      videoid={id}
-      playlabel={title}
-      style={{
-        backgroundImage: `url(https://i.ytimg.com/vi/${id}/hqdefault.jpg)`,
-      }}
-    >
-      <a
-        href={`https://youtube.com/watch?v=${id}`}
-        className="lty-playbtn"
-        title={title}
-      >
-        <span className="lyt-visually-hidden">Reproducir video: {title}</span>
-      </a>
-    </lite-youtube>
-  );
+  return <LiteYouTubeEmbed id={id} title={title} />;
 };
 
 export default YouTubeEmbed;
