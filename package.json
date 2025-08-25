@@ -17,6 +17,7 @@
     "next": "15.4.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-lite-youtube-embed": "2.5.6",
     "swiper": "^11.2.10",
     "yulp": "^0.2.3",
     "yup": "^1.7.0"
