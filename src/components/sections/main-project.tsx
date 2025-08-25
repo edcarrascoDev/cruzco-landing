@@ -1,4 +1,8 @@
-import GallerySlider from "@cruzco/components/gallery-slider";
+import dynamic from "next/dynamic";
+const DynamicGallery = dynamic(
+  () => import("@cruzco/components/gallery-slider"),
+);
+
 const features = [
   {
     value: "2000m²",
@@ -72,7 +76,7 @@ export default function MainProject() {
           Nuestras zonas sociales
         </h6>
       </div>
-      <GallerySlider />
+      <DynamicGallery />
     </section>
   );
 }

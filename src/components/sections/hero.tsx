@@ -33,6 +33,7 @@ export default function Hero() {
                 className="object-cover object-bottom-right rounded-2xl w-full h-full"
                 src="/bra_house.jpeg"
                 alt="Imagen de bosques del rio"
+                priority
                 fill
               />
             </div>

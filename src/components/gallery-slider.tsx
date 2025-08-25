@@ -1,5 +1,6 @@
 "use client";
-import React, { useRef, useState } from "react";
+import Image from "next/image";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -19,9 +20,12 @@ export default function GallerySlider() {
     >
       {Array.from({ length: 8 }).map((_, index) => (
         <SwiperSlide key={index} className="!w-3/4 md:!w-1/4">
-          <img
+          <Image
             src={`/gallery_0${index + 1}.jpeg`}
             alt="Imagen de bosques del rio"
+            className="w-full"
+            width={350}
+            height={470}
           />
         </SwiperSlide>
       ))}
