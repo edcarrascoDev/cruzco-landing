@@ -34,7 +34,8 @@ export default function Hero() {
                 src="/bra_house.jpeg"
                 alt="Imagen de bosques del rio"
                 priority
-                fill
+                width={624}
+                height={400}
               />
             </div>
           </div>

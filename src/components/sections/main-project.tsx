@@ -2,6 +2,16 @@ import dynamic from "next/dynamic";
 const DynamicGallery = dynamic(
   () => import("@cruzco/components/gallery-slider"),
 );
+const YouTubeEmbed = dynamic(
+  () => import("@cruzco/components/common/YouTubeEmbed"),
+  {
+    loading: () => (
+      <div className="w-full h-full flex items-center justify-center">
+        Cargando video...
+      </div>
+    ),
+  },
+);
 
 const features = [
   {
@@ -27,16 +37,12 @@ export default function MainProject() {
         </h3>
         <div className="md:flex gap-8">
           <div className="flex-1 rounded-2xl overflow-hidden">
-            <iframe
-              className="h-[250px] md:h-[400px]"
-              width="100%"
-              height="400"
-              src="https://www.youtube.com/embed/J1AooljZ8To?si=P63zjcd33zKs9LX2"
-              title="Video Condominio Bosques del Río Arbeláez"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+            <div className="h-[250px] md:h-[400px]">
+              <YouTubeEmbed
+                id="J1AooljZ8To"
+                title="Video Condominio Bosques del Río Arbeláez"
+              />
+            </div>
           </div>
           <div className="min-w-60 flex md:flex-col gap-4 justify-between">
             {features.map((feature, index) => (

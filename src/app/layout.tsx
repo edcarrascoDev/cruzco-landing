@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Lato, League_Spartan } from "next/font/google";
+import "lite-youtube-embed/src/lite-yt-embed.css";
 import "./globals.css";
 import Header from "@cruzco/components/header";
 import Footer from "@cruzco/components/footer";
